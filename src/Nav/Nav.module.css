@@ -1,0 +1,9 @@
+.nav {
+    color: darkorange;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
