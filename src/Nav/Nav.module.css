@@ -12,16 +12,8 @@
     color: black;
 }
 
-.nav a:after {
-    display: block;
-    content: "";
-    height: 2px;
-    width: 0;
-    background-color: #f3f2f2;
-    transition: width 0.4s ease-in-out;
-}
 
-.nav a:hover:after,
-.nav a:focus:after{
-    width: 100%;
+.nav a:active{
+
+    border-bottom: 2px solid;
 }
