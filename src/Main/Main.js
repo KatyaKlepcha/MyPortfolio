@@ -1,5 +1,5 @@
 import style from "./Main.module.css"
-import Photo from '../Pictures/Photo.jpg'
+import Photo from '../Pictures/photo2.jpg'
 
 const Main = () => {
     return (
@@ -10,10 +10,7 @@ const Main = () => {
                 </h1>
                 <h4 className={style.profession}>Front-end Developer</h4>
             </div>
-            <div className={style.photoBox}>
-                <img src={Photo} className={style.photo} alt='MyPhoto'/>
-            </div>
-
+            <img src={Photo} className={style.photo} alt='MyPhoto'/>
         </div>
     )
 }

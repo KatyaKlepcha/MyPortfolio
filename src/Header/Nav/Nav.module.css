@@ -8,12 +8,13 @@
 .nav a {
     text-decoration: none;
     display: inline-block;
-    line-height: 1;
+    line-height: 2.1;
     color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 
 .nav a:active{
-
     border-bottom: 2px solid;
 }
