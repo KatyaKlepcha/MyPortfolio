@@ -1,22 +1,23 @@
 .container {
-    display: flex;
-
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*width: 1000px;*/
+    width: 100%;
 }
 
 .main {
-    /*height: 500px;*/
-    /*width: 700px;*/
-    position: absolute;
-    /*left: 60px;*/
-    /*top: 25px;*/
-    left: 0;
-    z-index: 1;
-
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-.title {
+
+/*.mainContainer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+.name {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #000;
     font-weight: 900;
@@ -24,6 +25,7 @@
     margin-bottom: 0;
     margin-top: 0;
 }
+
 
 .surname {
     display: block;
@@ -39,17 +41,15 @@
     font-weight: 600;
     display: inline-block;
     margin-top: 0;
+    padding-left: 9px;
 
 }
 
 
 .photo {
-    /*height: 500px;*/
-    /*width: 440px;*/
-    /*position: relative;*/
-    /*right: -260px;*/
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     height: 100%;
+    z-index: -1;
 }
