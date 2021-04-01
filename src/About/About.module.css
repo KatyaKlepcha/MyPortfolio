@@ -1,4 +1,33 @@
 .aboutContainer {
+    position: relative;
 
+}
 
+.photo {
+    height: 100vh;
+}
+
+.about{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-weight: 900;
+    font-size: 120px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.name {
+    font-weight: 900;
+    color: black;
+    font-size: 45px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.profession {
+    position: absolute;
+    top: 130px;
+    right: 280px;
 }
