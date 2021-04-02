@@ -1,20 +1,40 @@
 .aboutContainer {
-    position: relative;
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .photo {
-    height: 100vh;
+    height: 80vh;
+    width: 50%;
+    border-radius: 1%;
+    /*padding-left: 20px;*/
 }
 
-.about{
+.aboutMe {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-left: 20px;
+}
+
+.aboutName {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.about {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #000;
     font-weight: 900;
     font-size: 120px;
-    position: absolute;
-    top: 0;
-    right: 0;
+
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
 }
 
 .name {
@@ -23,11 +43,22 @@
     font-size: 45px;
     position: absolute;
     top: 60px;
-    right: 0;
+    left: 25px;
+
 }
 
 .profession {
-    position: absolute;
-    top: 130px;
-    right: 280px;
+    /*position: absolute;*/
+    /*top: 130px;*/
+    /*right: 280px;*/
+    font-weight: 600;
+}
+
+a {
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    line-height: 2.1;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+
 }

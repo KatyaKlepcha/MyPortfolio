@@ -1,5 +1,5 @@
 .container {
-    width: 100%;
+    width: 80%;
 }
 
 .main {
@@ -52,4 +52,6 @@
     right: 0;
     height: 100%;
     z-index: -1;
+    width: 40%;
+    object-fit: cover;
 }

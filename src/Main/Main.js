@@ -1,5 +1,5 @@
 import style from "./Main.module.css"
-import Photo from '../Pictures/photo2.jpg'
+import Photo from '../Common/Pictures/photo2.jpg'
 
 const Main = () => {
     return (
