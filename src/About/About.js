@@ -17,7 +17,11 @@ const About = () => {
                     I studying in it-incubator and I like it.
                     My higher education has nothing to do with programming,
                     but this did not prevent me from going to IT in any way.
-                    My skills are constantly replenished.</p>
+                    My skills are constantly replenished, I'm developing.
+                    I continue to learn English.
+                </p>
+                <p>I like to cook, especially delicious food. I love knitting, creativity.</p>
+                <button>Download CV</button>
             </div>
         </div>
     )

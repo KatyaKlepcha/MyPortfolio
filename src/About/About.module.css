@@ -54,11 +54,21 @@
     font-weight: 600;
 }
 
-a {
+p {
     font-family: 'Mulish', sans-serif;
     font-size: 15px;
     line-height: 2.1;
     letter-spacing: 0.8px;
     font-weight: 400;
+}
 
+button {
+    background-color: black;
+    color: white;
+    border-radius: 35px/50%;
+    line-height: 57px;
+    letter-spacing: .8px;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
