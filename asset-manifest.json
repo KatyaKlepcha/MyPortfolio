@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.2478e3e8.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.2b60300c.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.2b60300c.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.aa9fb429.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.aa9fb429.js.map",
+    "static/js/2.ed059d33.chunk.js": "/MyPortfolio/static/js/2.ed059d33.chunk.js",
+    "static/js/2.ed059d33.chunk.js.map": "/MyPortfolio/static/js/2.ed059d33.chunk.js.map",
+    "static/js/3.3cecbdef.chunk.js": "/MyPortfolio/static/js/3.3cecbdef.chunk.js",
+    "static/js/3.3cecbdef.chunk.js.map": "/MyPortfolio/static/js/3.3cecbdef.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/css/main.2478e3e8.chunk.css.map": "/MyPortfolio/static/css/main.2478e3e8.chunk.css.map",
+    "static/js/2.ed059d33.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.ed059d33.chunk.js.LICENSE.txt",
+    "static/media/Montserrat-Thin.4a799b11.ttf": "/MyPortfolio/static/media/Montserrat-Thin.4a799b11.ttf",
+    "static/media/Photo4.cdaf91fd.jpg": "/MyPortfolio/static/media/Photo4.cdaf91fd.jpg",
+    "static/media/photo2.e89128f3.jpg": "/MyPortfolio/static/media/photo2.e89128f3.jpg",
+    "static/media/redux.b905afe2.jpg": "/MyPortfolio/static/media/redux.b905afe2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa9fb429.js",
+    "static/js/2.ed059d33.chunk.js",
+    "static/css/main.2478e3e8.chunk.css",
+    "static/js/main.2b60300c.chunk.js"
+  ]
+}
