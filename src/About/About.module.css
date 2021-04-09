@@ -30,17 +30,13 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #000;
     font-weight: 900;
-    font-size: 120px;
-
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*right: 0;*/
+    font-size: 150px;
 }
 
 .name {
     font-weight: 900;
     color: black;
-    font-size: 45px;
+    font-size: 60px;
     position: absolute;
     top: 60px;
     left: 25px;
@@ -48,15 +44,13 @@
 }
 
 .profession {
-    /*position: absolute;*/
-    /*top: 130px;*/
-    /*right: 280px;*/
     font-weight: 600;
+    font-size: 20px;
 }
 
 p {
     font-family: 'Mulish', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 2.1;
     letter-spacing: 0.8px;
     font-weight: 400;
@@ -68,7 +62,7 @@ button {
     border-radius: 35px/50%;
     line-height: 57px;
     letter-spacing: .8px;
-    font-size: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
