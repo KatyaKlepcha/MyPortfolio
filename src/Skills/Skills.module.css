@@ -1,48 +1,55 @@
-
-
 .skillsTitle {
     text-align: center;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #000;
     font-weight: 900;
     font-size: 120px;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform:scaleX(-1);
+    }
+    100% {
+        transform:scaleX(1);
+    }
 }
 
 .skills {
     display: flex;
     letter-spacing: 0.8px;
-    /*text-align: center;*/
     justify-content: space-around;
 }
 
-.htmlContainer, .cssContainer, .jsContainer, .reactContainer, .reduxContainer{
+.htmlContainer, .cssContainer, .jsContainer, .reactContainer, .reduxContainer {
     position: relative;
     text-align: center;
 }
 
 .htmlTitle, .cssTitle, .jsTitle, .reactTitle, .reduxTitle {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    font-size: 18px;
+    font-size: 40px;
     font-weight: bolder;
-
-
-
-    /*position: relative;*/
+    text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0,
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0,
+                 #cad5e2 5px 5px 0;
 }
 
 .htmlSills, .cssSills, .jsSkills, .reactSkills, .reduxSkills {
     position: absolute;
-    /*text-align: center;*/
-    top: 0;
+    top: 40px;
     left: 0;
-    /*display: inline-block;*/
+    font-size: 20px;
+
 }
 
 .photoHtml, .photoCss, .photoJs, .photoReact, .photoRedux {
     width: 136px;
     height: 136px;
     opacity: 0.2;
-
+    margin-top: 20px;
 }
 

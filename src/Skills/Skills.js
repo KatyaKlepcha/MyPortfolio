@@ -12,9 +12,9 @@ const Skills = () => {
             <div className={style.skills}>
                 <div className={style.htmlContainer}>
                     <div className={style.htmlTitle}>HTML</div>
-                    <img src={html} className={style.photoHtml} alt='html'/>
-                    <p className={style.htmlSills}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
-                        rerum.</p>
+                        <img src={html} className={style.photoHtml} alt='html'/>
+                        <p className={style.htmlSills}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
+                            rerum.</p>
                 </div>
                 <div className={style.cssContainer}>
                     <div className={style.cssTitle}>CSS</div>
