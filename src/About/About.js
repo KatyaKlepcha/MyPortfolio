@@ -5,7 +5,7 @@ import font from '../Common/Fonts/Montserrat-Thin.ttf'
 const About = () => {
     return (
         <div className={style.aboutContainer}>
-            <img src={Photo4} className={style.photo} alt='MyPhoto2'/>
+                <img src={Photo4} className={style.photo} alt='MyPhoto2'/>
             <div className={style.aboutMe}>
                 <div className={style.aboutName}>
                     <div className={style.about}>ABOUT</div>

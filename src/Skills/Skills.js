@@ -13,13 +13,13 @@ const Skills = () => {
                 <div className={style.htmlContainer}>
                     <div className={style.htmlTitle}>HTML</div>
                         <img src={html} className={style.photoHtml} alt='html'/>
-                        <p className={style.htmlSills}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
+                        <p className={style.htmlSkills}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
                             rerum.</p>
                 </div>
                 <div className={style.cssContainer}>
                     <div className={style.cssTitle}>CSS</div>
                     <img src={css} className={style.photoCss} alt='css'/>
-                    <p className={style.cssSills}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
+                    <p className={style.cssSkills}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
                         quos.
                     </p>
                 </div>
