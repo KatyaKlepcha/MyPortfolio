@@ -1,0 +1,22 @@
+.projectContainer {
+    position: relative;
+}
+
+
+.projectTitle {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-weight: 900;
+    font-size: 150px;
+    opacity: 0.1;
+
+}
+
+.workTitle {
+    font-weight: 900;
+    color: black;
+    font-size: 65px;
+    position: absolute;
+    top: 70px;
+    left: 125px
+}

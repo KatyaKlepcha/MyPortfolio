@@ -1,0 +1,14 @@
+.footerContainer {
+    background-color: black;
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.photoInsta, .photoTelegram, .vk {
+    width: 40px;
+    height: 40px;
+}
