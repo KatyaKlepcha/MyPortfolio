@@ -4,6 +4,8 @@ import Main from "./Main/Main";
 import About from "./About/About";
 import style from './App.module.css'
 import Skills from "./Skills/Skills";
+import Project from "./Project/Project";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Main/>
       <About/>
       <Skills/>
+      <Project/>
+      <Footer/>
     </div>
   );
 }
