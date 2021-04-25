@@ -20,3 +20,24 @@
     top: 70px;
     left: 125px
 }
+.workLink {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.todoListLink, .socialNetworkLink, .counterLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photoTodoList, .photoSocialNetwork, .photoCounter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
